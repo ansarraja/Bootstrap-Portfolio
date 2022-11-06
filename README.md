@@ -26,7 +26,8 @@ https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.css
 (holds lots of classes and gove you an understanding of what bootstarp classes are doing)
 
 ## How portfolio page looks
-[Alt text](files/bootstarp-portfoli.jpeg)
+![](files/bootstarp-portfoli.jpeg)
+
 
 ## Web link
 https://ansarraja.github.io/Bootstrap-Portfolio/
