@@ -17,7 +17,7 @@
 
 <body>
  <!-- main logo / nav -->
- <header container-fluid>
+ <header class="container-fluid">
   <h1>Portfolio</h1>
   <nav class="navbar navbar-expand-lg">
    <a href="#about">About Me</a>
@@ -30,29 +30,18 @@
 
  <!-- hero banner -->
  <section class="jumbotron" id="about">
-  <div class="jumboCopy">
-   <div class="container h-100">
-    <div class="row h-100">
-     <div class="col-lg-12 my-auto">
-      <div class="header-content mx-auto">
-       <h1>Memu Raja</h1>
-       <img class="img-fluid rounded-circle mx-auto mb-2" src="./images/profile-avatar.png" width="150" height="150">
-       <p class="lead">Why do we use it?
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at
-        its
-        layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
-        to
-        using 'Content here, content here', making it look like readable English. Many desktop publishing packages and
-        web
-        page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many
-        web
-        sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on
-        purpose (injected humour and the like).</p>
-      </div>
-     </div>
-    </div>
-   </div>
+  <div class="jumboCopy d-flex flex-column flex-md-row justify-content-between">
+   <h1>Memu Raja <img class="img-fluid rounded-circle mx-auto mb-2" src="./images/profile-avatar.png" width="150"
+     height="150"></h1>
+   <p class="lead">Why do we use it?
+    It is a long established fact that a reader will be distracted by the readable content of a page when looking at
+    its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
+    to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and
+    web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many
+    web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on
+    purpose (injected humour and the like).</p>
   </div>
+
  </section>
 
  <!-- work Section -->
@@ -60,7 +49,7 @@
   <h2>Work</h2>
   <div class="row">
    <!-- Card 1 -->
-   <div class="cardContainer col-lg-8 col-md-8 col-sm-12">
+   <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
     <div class="card">
      <a href="https://ansarraja.github.io/CSS-HTML-Code_Refactor_Challenge_Ansar/"><img
        src="./images/02-portfolio-4.jpg" class="card-img-top" alt="Html Css"> </a>
@@ -131,8 +120,8 @@
  <section class="container-fluid page-section" id="skills">
   <h2>Skills</h2>
   <div class="row">
-   <div class="cardContainer">
-    <div class="card" style="width:35vw">
+   <div class="cardContainer col-lg-6 col-sm-12">
+    <div class="card" style="width:34vw">
      <h3>Programming Languages & Tools</h3>
      <ul class="list-group list-group-flush">
       <li class="list-group-item">CSS</li>
@@ -144,8 +133,8 @@
      </ul>
     </div>
    </div>
-   <div class="cardContainer">
-    <div class="card" style="width:35vw">
+   <div class="cardContainer col-lg-6 col-sm-12">
+    <div class="card " style="width:34vw">
      <h3>Workflow</h3>
      <ul class="list-group list-group-flush">
       <li class="list-group-item">Mobile-First, Responsive Design</li>
@@ -157,3 +146,46 @@
    </div>
   </div>
  </section>
+
+ <!-- Contact-->
+ <section class="container-fluid page-section" id="contact">
+  <h2>Contact</h2>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-4 mb-3 mb-md-0">
+     <div class="card py-4 h-100">
+      <div class="card-body text-center">
+       <h4 class="text-uppercase m-0">Address</h4>
+       <hr class="my-4" />
+       <div class="small text-black-50">12132 gggh street, England</div>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-4 mb-3 mb-md-0">
+     <div class="card py-4 h-100">
+      <div class="card-body text-center">
+       <h4 class="text-uppercase m-0">Email</h4>
+       <hr class="my-4" />
+       <div class="small text-black-50"><a href="#!">11233@unknown.com</a></div>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-4 mb-3 mb-md-0">
+     <div class="card py-4 h-100">
+      <div class="card-body text-center">
+       <h4 class="text-uppercase m-0">Phone</h4>
+       <hr class="my-4" />
+       <div class="small text-black-50">+44 (800) 45454885 </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </section>
+
+ <footer>
+  <div class="container">
+   <p>&copy; Your Website 2022. All Rights Reserved.</p>
+
+  </div>
+ </footer>
